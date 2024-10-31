@@ -1,0 +1,18 @@
+.charts-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.charts-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.placeholder {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.2rem;
+    color: #999;
+}

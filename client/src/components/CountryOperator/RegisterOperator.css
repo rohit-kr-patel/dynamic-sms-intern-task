@@ -1,0 +1,61 @@
+.register-operator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; /* Set max width for the form */
+    margin: auto; /* Center align */
+}
+
+.register-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Full width */
+}
+
+.form-label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.form-input {
+    padding: 10px;
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 5px; /* Rounded input corners */
+    margin-bottom: 15px; /* Space between inputs */
+    transition: border-color 0.3s; /* Smooth border color change */
+}
+
+.form-input:focus {
+    border-color: #007bff; /* Focus border color */
+    outline: none; /* Remove default outline */
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.feedback-message {
+    margin-top: 20px;
+    color: #28a745; /* Success message color */
+    font-weight: bold;
+}

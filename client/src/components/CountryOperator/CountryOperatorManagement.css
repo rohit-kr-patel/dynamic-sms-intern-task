@@ -1,0 +1,46 @@
+.operator-management-container {
+    padding: 20px;
+}
+
+.management-title {
+    margin-bottom: 20px;
+}
+
+.management-form {
+    margin-bottom: 20px;
+}
+
+.management-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.management-form input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+}
+
+.operator-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.operator-table th, .operator-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.operator-table th {
+    background-color: #f2f2f2;
+}
+
+.feedback-message {
+    color: green;
+    margin-top: 10px;
+}
+
+.operator-table button {
+    margin-right: 5px;
+}

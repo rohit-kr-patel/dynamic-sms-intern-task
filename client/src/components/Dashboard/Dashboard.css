@@ -1,0 +1,280 @@
+.dashboard-container {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+.signout-button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #f44336; /* Red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signout-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+.management-buttons {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column; /* Change to row if you want horizontal layout */
+}
+
+.management-button {
+    margin: 10px 0; /* Space between buttons */
+    padding: 10px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.management-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.dashboard-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    animation: fadeIn 1s; /* Animation for fading in */
+}
+
+.welcome-text, .best-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center; /* Center text alignment */
+    opacity: 0.8; /* Slightly faded text */
+    animation: slideIn 1s; /* Animation for sliding in */
+}
+
+.management-buttons {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column; /* Change to row if you want horizontal layout */
+}
+
+.management-button {
+    margin: 10px 0; /* Space between buttons */
+    padding: 10px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.management-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.operator-management-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.management-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.management-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.management-form label {
+    margin: 10px 0 5px;
+}
+
+.management-form input {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.management-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.management-form button:hover {
+    background-color: #0056b3;
+}
+
+.feedback-message {
+    margin-top: 10px;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.operator-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.operator-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.operator-item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.operator-item button:hover {
+    background-color: #c82333;
+}
+
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.welcome-text {
+    font-size: 1.2em;
+    color: #666;
+    text-align: center;
+}
+
+.best-text {
+    font-size: 1.1em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.signout-button {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.signout-button:hover {
+    background-color: #c82333;
+}
+
+.management-buttons {
+    width: 100%;
+    max-width: 600px; /* Limit width for larger screens */
+}
+
+.button-group-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 20px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between buttons */
+}
+
+.management-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.management-button:hover {
+    background-color: #0056b3;
+}

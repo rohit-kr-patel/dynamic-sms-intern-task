@@ -1,0 +1,66 @@
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    color: white;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.title-section {
+    margin-bottom: 20px;
+}
+
+.project-title {
+    font-size: 3rem;
+    animation: slideIn 1s ease-in-out;
+}
+
+.project-quote {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.button-section {
+    margin-top: 20px;
+}
+
+.auth-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff6b6b;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+    background-color: #ff3b3b;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
